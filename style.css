@@ -1,0 +1,87 @@
+ 
+  
+ *{
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+
+.dropdwon_menu{
+	background-color: gray;
+	text-align: center;
+	padding:10px 15px;
+    
+}
+.dropdwon_menu a{
+	text-decoration: none;
+	 color: white;
+	 font-size: 25px;
+    padding: 10px 20px;
+}
+.dropdwon_menu a:hover{
+	text-decoration:underline;
+  text-transform: uppercase;
+}
+.dropdwon_container{
+	display: inline;
+	position: relative;
+}
+.dropdwon_content {
+   position: absolute;
+   top:30px;
+   right:0px;
+   background-color: green;
+   text-align: left;
+   display: none;
+}
+.dropdwon_container:hover .dropdwon_content{
+	display: block;
+}
+
+.dropdwon_content a:hover{
+  background-color: hotpink;
+  color: blue;
+}
+.dropdwon_content a{
+  display: block;
+}
+
+
+
+
+.tutorial_container{
+	display: inline;
+	position: relative;
+}
+.tutorial_content{
+	 position: absolute;
+	 top: 30px;
+	 left:10px;
+	 text-align: left;
+	 background-color: red;
+	 display: none;
+
+}
+.tutorial_container:hover .tutorial_content{
+	display: block;
+}
+
+.tutorial_content a{
+	display: block;
+	 
+}
+.tutorial_content a:hover{
+	 background-color: chocolate;
+	 color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
